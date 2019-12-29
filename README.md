@@ -1,1 +1,1 @@
-# ncfarms4kids-website
+# website for the NC Farms for NC Kids iniative aimed towards getting fresh, local produce into North Carolina's public school cafeterias. 
