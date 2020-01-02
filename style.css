@@ -1,3 +1,7 @@
-#threes {
-    background-color: white;
+* {
+    color: #36393b;
+}
+
+.dropdown{
+    display: inline;
 }
