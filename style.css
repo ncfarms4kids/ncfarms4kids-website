@@ -6,6 +6,12 @@
     display: inline;
 }
 
-#threes {
+.container-a {
+    width: 100%; 
+    background-color: #4d82ae;
+    color: #8A412E;
+}
+
+.container-b {
     
 }
