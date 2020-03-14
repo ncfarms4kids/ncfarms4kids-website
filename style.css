@@ -1,17 +1,20 @@
 * {
     color: #36393b;
+    text-decoration: none;
 }
 
-.dropdown{
-    display: inline;
+a:hover {
+    text-decoration: none;
 }
 
-.container-a {
-    width: 100%; 
-    background-color: #4d82ae;
-    color: #8A412E;
+a {
+    color:black;
 }
 
-.container-b {
-    
+body {
+    background-color: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
