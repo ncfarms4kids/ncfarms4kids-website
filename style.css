@@ -18,3 +18,74 @@ body {
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+img/fruit-veggie.jpg {
+
+}
+
+#landing {
+    padding-left: 120px;
+    height: 500px;
+    background: url('img/fruit-veggie.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80% 20%;
+}
+
+
+#icon1 {
+width: 200px; 
+height: 200px; 
+background: url('img/nc-1.png') no-repeat;;
+background-size: contain;
+
+margin: auto;
+width: 50%;
+
+}
+
+#icon1:hover {
+background:url('img/nc2.png') no-repeat;
+background-size: contain;
+
+margin: auto;
+width: 50%;
+
+}
+
+#icon2 {
+width: 200px; 
+height: 200px; 
+background: url('img/forks1.png') no-repeat;;
+background-size: contain;
+
+margin: auto;
+width: 50%;
+}
+
+#icon2:hover {
+background:url('img/forks2.png') no-repeat;
+background-size: contain;
+
+margin: auto;
+width: 50%;
+}
+
+#icon3 {
+width: 200px; 
+height: 200px; 
+background: url('img/farm1.png') no-repeat;;
+background-size: contain;
+
+margin: auto;
+width: 50%;
+}
+    
+#icon3:hover {
+background:url('img/farm2.png') no-repeat;
+background-size: contain;
+
+margin: auto;
+width: 50%;
+}
+

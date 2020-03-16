@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
-    <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
 </head>
 
 
@@ -29,17 +29,16 @@
     <!-- Header -->
     <a href="index.html">
     <div class="container text-center" style="padding-top: 25px;">
-        <div class="row h1"> <div class="col">NC Farms for NC Kids</div> </div>
+        <div class="row h1"> <div class="col" style="color: black; font-weight: light;">NC Farms for NC Kids</div> </div>
         <div class="row h5"> <div class="col">Providing Fresh, Local Produce for North Carolina's Children</div> </div>
     </div>  
     </a>
 
     <!-- Navigation -->
-    <div class="container text-center" style="padding-top: 35px;">
+    <div class="container text-center" style="padding-top: 35px; padding-bottom: 50px;">
         <div class="row"><div class="col"><img src="img/top-line.svg"></div></div>
         <div class="row" text-center>
-                <div class="col"> </div>
-            <div class="btn dropdown">
+            <div class="col btn dropdown text-right">
                 <a class="dropdown-toggle" data-toggle="dropdown">
                     Learn More
                 </a>
@@ -50,40 +49,31 @@
                 </div>
             </div>
             <div class="col btn"> <a href="resources.html">Resources</a></div>
-            <div class="col btn"> Get Involved</div>
-            <div class="col"> </div>
+            <div class="col btn text-left"> Get Involved</div>
         </div>
     </div>  
 
     <!-- Landing Illustration -->
-    <div class="container" style="padding-top: 50px;">
-        <!--
-        <div class="row text-center">
-            <div class="col"><img src="img/landing.png" style="max-width:85%";"max-height:85%"; class="img-responsive"></div>
-        </div>
-    -->
-            
-            <div class="row text-right">
-                <div class="col-4" style="padding-top: 100px;">
-                    <div class="row h1 p-2">
-                        <div class="col">More Local Produce in School Meals:</div>
-                    </div>
-                    <div class="row h3 p-2">
-                        <div class="col">Good for Kids, Farms, </br>and Local Economies. </div>
-                    </div>
+    <div class="container" style="padding-top: 50px;" id="landing">      
+        <div class="row text-left">
+            <div class="col-4" style="padding-top: 40px;">
+                <div class="row h1">
+                    <div class="col" style="color: black; font-weight: light;">More Local Food in </br>School Meals:</div>
                 </div>
-                <div class="col-6" style="padding-right:50px;"> <img src="img/fruit-veggie.jpg" style="max-width:130%;max-height:130%;" class="img-responsive"></div>
+                <div class="row h3">
+                    <div class="col" style="color: black; font-weight: light;">Good for Kids, Farms, </br>and Local Economies. </div>
+                </div>
             </div>
-           
+        </div>
     </div>  
 
     <!-- Three Headlines -->
-    <div class="container" style="padding-top: 75px;">
+    <div class="container text-center" style="padding-top: 75px;">
         <div class="row text-center">
             <div class="col">
                 <a href="kids.html">
-                <div class="p-2 h3">Healthy meals improve student performance.</div>
-                <div><img src="img/graphicsforFARMfood.png" width="200" height="200" ></div>
+                <div class="p-2 h3" style="color: black; font-weight: light;">Healthy meals improve student performance.</div>
+                <div  id="icon1" ></div>
                 <div class="text-left p-4">
                     Kids who eat healthy meals do better in school.  
                     Healthy, local and adequately funded school meals are an important part 
@@ -93,8 +83,8 @@
             </div>
             <div class="col">
                 <a href="farms.html">
-                <div class="h3 p-2" >More state funding for NC grown foods is key. </div>
-                <div><img src="img/graphicsforFARMnc.png" width="200" height="200"></div>
+                <div class="h3 p-2" style="color: black; font-weight: light;">More state funding for NC grown foods is key. </div>
+                <div id="icon2"></div>
                 <div class="text-left p-4">
                 North Carolina has the 7th largest school meal program 
                 in the country and agriculture is our state’s largest industry.  
@@ -105,8 +95,8 @@
             </div>
             <div class="col">
                 <a href="economies.html">
-                <div class="p-2 h3">Feed NC kids with food from NC farmers.</div>
-                <div><img src="img/graphicsforFARMfarms.png" width="200" height="200"></div>
+                <div class="p-2 h3" style="color: black; font-weight: light;">Feed NC kids with food from NC farmers.</div>
+                <div id="icon3"></div>
                 <div class="text-left p-4">
                     Children and adolescents consume up to half of their daily calories at school.  
                     Let’s work together and make sure our NC farmers are providing the food our east eat. 
