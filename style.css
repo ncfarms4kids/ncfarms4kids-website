@@ -11,6 +11,10 @@ a {
     color:black;
 }
 
+.drp:hover {
+    color: blue; 
+}
+
 body {
     background-color: white;
 }
@@ -19,9 +23,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-img/fruit-veggie.jpg {
-
-}
 
 #landing {
     padding-left: 120px;
@@ -88,4 +89,21 @@ background-size: contain;
 margin: auto;
 width: 50%;
 }
+
+
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+   .cont {
+       align-content: left;
+   }
+   
+    .txt {
+      background-color: white;
+      width: 95%;
+      text-align: center;
+      align-content: center;
+    }
+  }
+
+
 
