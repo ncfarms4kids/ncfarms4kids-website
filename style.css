@@ -96,6 +96,7 @@ width: 50%;
    
 
     .txt {
+    font-size: 30px; 
       background-color: white;
       align-content: center;
     }
