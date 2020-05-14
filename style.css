@@ -1,37 +1,42 @@
 * {
-    color: #36393b;
     text-decoration: none;
+}
+
+.h1, .h2, .h3 {
+    color: #1B1951; 
 }
 
 a:hover {
     text-decoration: none;
+    color: black; 
 }
 
 a {
-    color:black;
+    color:#808080;
 }
 
-.drp:hover {
-    color: blue; 
+.bold {
+    font-weight: 900;  
 }
+
+.nav-item {
+    font-size: 18px;
+}
+
 
 body {
-    background-color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-#landing {
-    padding-left: 120px;
-    height: 500px;
-    background: url('img/fruit-veggie.jpg');
+.open {
+    background: url("img/green-square.svg"),url("img/fork.svg") ;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 80% 20%;
+    background-size: 800px, 600px;
+    background-position-x: 120%, 40%;
+    background-position-y: -35%, 4%;
+   
 }
+
 
 
 #icon1 {
@@ -93,14 +98,14 @@ width: 50%;
 
 @media only screen and (max-width: 992px) {
     /* For mobile phones: */
-   
-
-    .txt {
-    font-size: 30px; 
-      background-color: white;
-      align-content: center;
+    .open {
+        background: none ; 
+        text-align: left; 
+            
     }
-  }
+
+
+}
 
 
 

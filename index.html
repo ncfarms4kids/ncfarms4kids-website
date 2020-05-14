@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <!--Name of website-->
     <title>NC Farms for NC Kids</title>
@@ -26,51 +27,70 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-    <!-- Header -->
-    <a href="index.html">
-    <div class="container text-center" style="padding-top: 25px;">
-        <div class="row h1"> <div class="col" style="color: black; font-weight: light;">NC Farms for NC Kids</div> </div>
-        <div class="row h5"> <div class="col">Providing Fresh, Local Produce for North Carolina's Children</div> </div>
-    </div>  
-    </a>
-
+   
+<div class="open">
     <!-- Navigation -->
-    <div class="container text-center" style="padding-top: 35px; padding-bottom: 50px;">
-        <div class="row"><div class="col"><img src="img/top-line.svg"></div></div>
-        <div class="row" text-center>
-            <div class="col btn dropdown text-right drp">
-                <a class="dropdown-toggle" data-toggle="dropdown">
-                    Learn More
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="kids.html">Good for Kids</a>
-                    <a class="dropdown-item" href="farms.html">Good for Farms</a>
-                    <a class="dropdown-item" href="economies.html">Good for Local Economies</a>
-                </div>
-            </div>
-            <div class="col btn"> <a href="resources.html">Resources</a></div>
-            <div class="col btn text-left"> Get Involved</div>
-        </div>
-    </div>  
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="150" height="75" class="d-inline-block align-top" alt="">
+        </a>    
 
-    <!-- Landing Illustration -->
-    <div class="container container-flex" style="padding-top: 50px;" id="landing">      
-        <div class="row text-left">
-            <div class="col-lg" style="padding-top: 40px;">
-                    <div class="h1 txt"style="color: black; font-weight: light;">More Local Food </br> in School Meals:</div>
-                    <div class="h3 txt"style="color: black; font-weight: light;">Good for Kids, Farms, </br>and Local Economies. </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Learn More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="kids.html">Good for kids</a>
+                    <a class="dropdown-item" href="farms.html">Good for farms</a>
+                    <a class="dropdown-item" href="economies.html">Good for local economies</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get Involved</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  
+
+    <!-- Landing Illustration -->     
+    <div class="container landing-1" style="padding-bottom: 200px;">
+        <div class="row">
+            <div class="col text-right" style="padding-top: 80px;">
+                <div class="h1 p-3 bold align-middle">Good for Kids</div>
+                <div class="h1 p-3 bold align-middle"> Good for Farms</div>
+                <div class="h1 p-3 bold"> Good for Local Economies</div>
+            </div>
+            <div class="col">
+                <img class="img-responsive" src="img/kids.jpg" width="100%" style="border-radius: 2px;">
             </div>
         </div>
-    </div>  
+    </div>
+
 
     <!-- Three Headlines -->
-    <div class="container text-center" style="padding-top: 75px;">
-        <div class="row text-center">
+    <div class="container" style="padding-top: 50px; padding-bottom: 75px;">
+        <div class="row p-4">
+            <div class="col text-left">
+                <div class="h1 bold">NC Farms For NC Kids </div>
+                <div class="h5" style="color:#808080;">Providing fresh, local produce for North Carolina's children. </div>
+            </div>
+        </div>
+        <div class="row p-4">
             <div class="col-md">
                 <a href="kids.html">
-                <div class="p-2 h3" style="color: black; font-weight: light;">Healthy meals improve student performance.</div>
                 <div  id="icon1" ></div>
-                <div class="text-left p-4">
+                <div class="h3 text-left">Healthy meals improve student performance.</div>                
+                <div class="text-left"  style="padding-top: 20px;">
                     Kids who eat healthy meals do better in school.  
                     Healthy, local and adequately funded school meals are an important part 
                     of improving student performance.
@@ -79,9 +99,9 @@
             </div>
             <div class="col-md">
                 <a href="farms.html">
-                <div class="h3 p-2" style="color: black; font-weight: light;">More state funding for NC grown foods is key. </div>
                 <div id="icon2"></div>
-                <div class="text-left p-4">
+                <div class="h3 text-left">More state funding for NC grown foods is key. </div>                
+                <div class="text-left" style="padding-top: 20px;">
                 North Carolina has the 7th largest school meal program 
                 in the country and agriculture is our state’s largest industry.  
                 By providing state funding for more North Carolina grown foods in 
@@ -91,9 +111,9 @@
             </div>
             <div class="col-md">
                 <a href="economies.html">
-                <div class="p-2 h3" style="color: black; font-weight: light;">Feed NC kids with food from NC farmers.</div>
                 <div id="icon3"></div>
-                <div class="text-left p-4">
+                <div class="h3 text-left">Feed NC kids with food from NC farmers.</div>                
+                <div class="text-left" style="padding-top: 20px;">
                     Children and adolescents consume up to half of their daily calories at school.  
                     Let’s work together and make sure our NC farmers are providing the food our east eat. 
                 </div>
@@ -102,8 +122,10 @@
         </div>
     </div>  
 
+</div>
+
     <!-- Video and Get Involved -->
-    <div class="container" style="padding-top: 75px;">
+    <div class="container-fluid" style="padding-top: 75px; padding-bottom: 75px; background-color: #A2D184">
         <div class="row">
             <div class="col-md">
                 <div class="embed-responsive embed-responsive-16by9">
@@ -111,7 +133,7 @@
                 </div>
             </div>
             <div class="col-md">
-                <div class="row"><div class="col">By supporting our initiative, you are helping... By supporting our initiative, you are helping...
+                <div class="row"><div class="col" >By supporting our initiative, you are helping... By supporting our initiative, you are helping...
                         By supporting our initiative, you are helping... By supporting our initiative, you are helping...
         
                 </div></div>
@@ -123,7 +145,7 @@
     <!-- PTA slogan -->
     <div class="container text-center" style="padding-top: 75px;">
         <div class="row">
-            <div class="col" style="padding-bottom: 50px; "> Every Child. Every School. Every day. </div>
+            <div class="col h3" style="padding-bottom: 50px; "> Every Child. Every School. Every day. </div>
         </div>
     </div>
 
@@ -132,17 +154,18 @@
 
     <div class="row">
         <div class="col">   
-            <div class="row text-center justify-content-center">In Partnership With: </div>
+            <div class="row text-center justify-content-center" style="padding-bottom: 20px;">In Partnership With: </div>
             <div class="row justify-content-center">
-            <img src="img/ncalliance.png" width="150" height="80">
-            <img src="img/fig.png" width="130" height="90" hspace="10">
-            <img src="img/farmstew.png" width="100" height="90" hspace="10">
-            <img src="img/ncpta.png" width="130" height="80">
+            <img src="img/ncalliance.png" width="120" height="60">
+            <img src="img/fig.png" width="110" height="70" hspace="10">
+            <img src="img/farmstew.png" width="80" height="70" hspace="10">
+            <img src="img/SHCU logo.jpg" width="110" height="40" hspace="10">
+            <img src="img/ncpta.png" width="110" height="60">
             </div>
         </div>    
     </div>
 
-    <div class="container text-center">
+    <div class="container text-center" style="padding-top: 10px;">
         <div class="row">
         <div class="col p-2">Find us elsewhere:  
             <a href="https://www.facebook.com/NorthCarolinaPTA"> <img src="img/facebook.png" width="30" height="30" hspace="10"></a>
@@ -157,6 +180,9 @@
         </div>
     </div>
     </div>
+
+    
+    
 
 
   </body>
